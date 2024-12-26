@@ -13,7 +13,8 @@ ul {
 }
 
 html {
-    font-size: 62.5%
+    font-size: 62.5%;
+    font-family: system-ui, -apple-system, sans-serif;
 }
 
 .container {
@@ -21,3 +22,37 @@ html {
     width: 1200px;
 }
 
+header {
+    height: 50px;
+    background-color: #1f2937;
+
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+header li:first-child {
+    margin-right: auto;
+}
+
+.header__logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__link:link,
+.header__link:visited {
+    color: #f9faf8;
+}
+
+.header__link:hover,
+.header__link:active {
+    color: whitesmoke;
+    text-decoration: underline;
+}
